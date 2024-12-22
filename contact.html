@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travis Scott - CV</title>
+    <title>Contact - Travis Scott</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -25,29 +25,26 @@
       </nav>
     </header>
 
-    <section class="hero">
+    <section class="contact">
       <div class="content">
-        <h1>Travis Scott</h1>
-        <p>American Rapper, Singer, Songwriter, and Record Producer</p>
-      </div>
-    </section>
+        <h2>Contact Travis Scott</h2>
+        <p>
+          If you'd like to get in touch with Travis Scott, please fill out the
+          contact form below:
+        </p>
 
-    <section class="bio">
-      <div class="bio-content">
-        <h2>Biography</h2>
-        <p>
-          Travis Scott, born Jacques Webster II on April 30, 1992, in Houston,
-          Texas, is an internationally acclaimed rapper, singer, songwriter, and
-          record producer. Known for his unique sound, blending elements of hip
-          hop, psychedelic music, and atmospheric production, he has become one
-          of the most influential figures in modern music.
-        </p>
-        <p>
-          His breakout project "Rodeo" (2015) catapulted him into superstardom,
-          and his subsequent albums "Birds in the Trap Sing McKnight" (2016) and
-          "Astroworld" (2018) further solidified his place in the music
-          industry.
-        </p>
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
       </div>
     </section>
 
